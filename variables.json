@@ -1,0 +1,26 @@
+[
+  {
+    "type": "input",
+    "name": "playlist",
+    "placeholder": "Playlist URI",
+    "validator": "text",
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "name": "display",
+    "placeholder": "Display",
+    "validator": "text",
+    "required": true,
+    "values": [
+      {
+        "text": "Simple",
+        "value": 1
+      },
+      {
+        "text": "Details",
+        "value": 2
+      }
+    ]
+  }
+]
